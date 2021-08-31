@@ -1,0 +1,144 @@
+:root
+{
+    --margin: 10px;
+} 
+
+body
+{
+	background: #E5E4E2;
+    padding: 5px;
+}
+
+.container-box
+{
+    display: flex;
+    flex-wrap: wrap;
+	align-items: center;
+}
+
+.Sustentabilidade
+{
+	background: url(Sustentabilidade.jpg);
+	background-repeat: no-repeat;
+	color: #FFF;
+    width: 180px;
+	height: 200px;
+	background-color: #FAAFBE;
+	border: 1px solid #000000;
+}
+
+a
+{
+	font-weight: bold;
+}
+
+.a
+{
+    max-width: 400px;
+	background-color: #FFF5EE;
+	border: 1px solid #000000;
+}
+
+.Net
+{
+	background: url(Netflix.jpg);
+	background-repeat: no-repeat;
+	color: #FFF;
+    width: calc((100%/3) - (var(--margin)* 2));
+	background-color: #FAAFBE;
+	border: 1px solid #000000;
+}
+
+.b
+{
+    width: 202px;
+	background-color: #FFF5EE;
+	border: 1px solid #000000;
+}
+
+.b img
+{
+	float: left;
+	padding: 1px;
+	width: 200px;
+	height: 110px;
+}
+
+.Achou
+{
+    width: 300px;
+	background-color: #FFF5EE;
+	border: 1px solid #000000;
+}
+
+.Achou img
+{
+	float: right;
+	padding: 1px;
+	width: 200px;
+	height: 183px;
+}
+
+.Receita
+{
+    background-color: #FFF8C6;
+    max-width: 400px;
+	margin: 0 auto;
+	border: 1px solid #F62217;
+}
+
+.Receita img
+{
+	float: left;
+	padding: 1px;
+	width: 200px;
+	height: 110px;
+}
+
+.c
+{
+    background-color: #C6DEFF;
+    max-width: 400px;
+	margin: 0 auto;
+	border: 1px solid #CCC;
+}
+
+.c img
+{
+	border: 1px solid #7D0552;
+	margin: 10px 10px 0px 65px;
+	padding: 1px;
+}
+
+.d
+{
+    width: 202px;
+	background-color: #E3E4FA;
+	border: 1px solid #F62217;
+}
+
+.Insta
+{
+	background: url(Instagram.jpg);
+	background-repeat: no-repeat;
+    width: 250px;
+	height: 100px;
+	background-color: #FAAFBE;
+	border: 1px solid #000000;
+}
+
+.Terra
+{
+    background-color: #FF8C00;
+    max-width: 250px;
+	margin: 0 auto;
+	border: 1px solid #CCC;
+}
+
+.box
+{
+    border-radius: 4px;
+    margin: var(--margin);
+    height: 0 auto;
+	padding: 5px;
+}
