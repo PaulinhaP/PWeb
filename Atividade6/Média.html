@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+    <meta charset = "UTF-8">
+    <title>Atividade JavaScript</title>
+
+    <script>
+		var nome;
+		var media = 0;
+		var nota1 = 0;
+		var nota2 = 0;
+		var nota3 = 0;
+		
+		nome = prompt("Qual é o nome do(a) aluno(a)?");
+		nota1 = prompt("Digite a primeira nota:");
+		nota2 = prompt("Digite a segunda nota:");
+		nota3 = prompt("Digite a terceira nota:");
+		media = (parseFloat(nota1) + parseFloat(nota2) + parseFloat(nota3))/ 3;
+		
+		var decisao = confirm("Clique em OK para exibir o resultado!");
+		if (decisao)
+		{
+			alert("Você clicou no botão OK,\n retornou o valor: " + decisao);
+			alert("A média do(a) aluno(a) " + nome + " é " + media);
+		}
+		else
+		{
+			alert("Você clicou no botão CANCELAR,\n retornou o valor: " + decisao);
+		}
+	</script>
+</head>
+<body>
+</body>
+</html>
